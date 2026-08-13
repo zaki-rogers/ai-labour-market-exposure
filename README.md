@@ -7,7 +7,8 @@ This project analyses how Claude.ai Free and Pro usage is distributed across the
 The analysis independently reconstructs the Index's occupation-level methodology from the raw task-level data, then extends it with original comparisons against employment share and wage data to test this question.
 
 ## Data Sources
-All data was downloaded from the [Anthropic Economic Index dataset on Hugging Face](https://huggingface.co/datasets/Anthropic/EconomicIndex/tree/main/release_2025_02_10) (February 2025 release)
+All data was downloaded from the [Anthropic Economic Index dataset on Hugging Face](https://huggingface.co/datasets/Anthropic/EconomicIndex/tree/main/release_2025_02_10) (February 2025 release). This analysis builds on and independently reproduces parts of the methodology from Anthropic's accompanying paper, [Which Economic Tasks are Performed with AI? Evidence from Millions of Claude Conversations](https://arxiv.org/abs/2503.04761).
+
 
 - `onet_task_statements.csv`, `SOC_Structure.csv`: O*NET/SOC occupation and task taxonomy data, bundled into the release for reproducibility.
 - `onet_task_mappings.csv`, `automation_vs_augmentation.csv`: Claude.ai usage data, broken down by task and by automation/augmentation interaction type respectively.
