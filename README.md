@@ -47,7 +47,7 @@ ai-labour-market-exposure/
 ├── LICENSE
 ├── README.md
 └── .gitignore
-​```
+```
 
 ## Setup
 ```bash
